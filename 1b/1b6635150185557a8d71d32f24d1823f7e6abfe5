@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<CreditNote xmlns="urn:oasis:names:specification:ubl:schema:xsd:CreditNote-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+	<ext:UBLExtensions>
+		<ext:UBLExtension>
+			<ext:ExtensionContent>
+				<ds:Signature Id="SignatureSP">
+					<ds:SignedInfo>
+						<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+						<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+						<ds:Reference URI="">
+							<ds:Transforms>
+								<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+							</ds:Transforms>
+							<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+							<ds:DigestValue>qd2zU/PSpvDjJo2BS7CBtFBpHfQ=</ds:DigestValue>
+						</ds:Reference>
+					</ds:SignedInfo>
+				<ds:SignatureValue>FqKkW3ZT0tIuysQAtm1ygkVUvwm8QwXGsT2th3xATSmDkGKNLU4AWuuTfqRkyY3C
+FUiucbpSsrn1vmB8ITXuhnDJHUYjx6/RYtAh49IBZ1ToeR6nx6vTRad5GeSLZ79n
+Lx8IrJGgJ5RmOpZFDZoDnAOtML4u0bHDa39HZJZZ4/3hlwf917QIEEp2m+X6kvej
++kUlWSee1He3bWKvD4OFgLvMsUoCRfLPTNElPWuGi4wm4Z7JTb3pOaRi0JeJ9iKj
+m68YH9CIr7hActWURwapKLSHBAang4YWGbwQY/Y9CtGlwR+nw0jqQgyxV9Ir++JG
+9ZYZHinsKfTO+6rgI54fkA==</ds:SignatureValue>
+					<ds:KeyInfo>
+						<ds:X509Data>
+							<ds:X509SubjectName>C=PE,L=PUNO,O=ARMAR PROYECTOS S.A.C.,OU=Validated by Llama.pe ER,OU=FACTURA ELECTRONICA RUC: 20602542808,serialNumber=29593910,CN=MALDONADO ESCOBEDO ARTURO,emailAddress=contacto@conflux.pe,street=JR. 9 DE DICIEMBRE NRO. 309</ds:X509SubjectName>
+							<ds:X509Certificate>MIIFajCCBFKgAwIBAgIIQu9Kfyxt2eowDQYJKoZIhvcNAQELBQAwRjEkMCIGA1UE
+AwwbTGxhbWEucGUgU0hBMjU2IFN0YW5kYXJkIENBMREwDwYDVQQKDAhMTEFNQS5Q
+RTELMAkGA1UEBhMCUEUwHhcNMjEwMjIyMTYzMDQxWhcNMjMwMjIyMTYzMDAwWjCC
+ARAxJDAiBgNVBAkMG0pSLiA5IERFIERJQ0lFTUJSRSBOUk8uIDMwOTEiMCAGCSqG
+SIb3DQEJARYTY29udGFjdG9AY29uZmx1eC5wZTEiMCAGA1UEAwwZTUFMRE9OQURP
+IEVTQ09CRURPIEFSVFVSTzERMA8GA1UEBRMIMjk1OTM5MTAxLTArBgNVBAsMJEZB
+Q1RVUkEgRUxFQ1RST05JQ0EgUlVDOiAyMDYwMjU0MjgwODEhMB8GA1UECwwYVmFs
+aWRhdGVkIGJ5IExsYW1hLnBlIEVSMR8wHQYDVQQKDBZBUk1BUiBQUk9ZRUNUT1Mg
+Uy5BLkMuMQ0wCwYDVQQHDARQVU5PMQswCQYDVQQGEwJQRTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAK7K67d4LYzwSF38sPJpqPKFkbvbfhtb6uHNmG5D
+xfsLERN6F7DTH4V4hhKzEHDB8FyqYYZJu8Z+8GuE3UndklcxVywBNV+MbHFB8Dvl
+fNjuDp5yClzPEzy97L29VqMBY1WRebizcVBbPGnDOgLBaMRqyDEspkobpW149hkZ
+gJV7M/3hxNHwXvYQPuky9Rm+o5ZeW063OjMc4hHu6wdx2D2tZzY1ZrjxmgYFPm5B
+ypDCBN1ZqFw4QbLa9lpCmH+LHq7Vlods3dHm/Sc9Fqve0AfyYO4L/BPf439a3tsd
+qr2pod9Vz0U327UTKT5sdrD03q6xKqZZ5tk9qQVxZZOmUy8CAwEAAaOCAY4wggGK
+MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUXYhbretl+/5oouTZbz1XcqLvK5kw
+ZwYIKwYBBQUHAQEEWzBZMDUGCCsGAQUFBzAChilodHRwOi8vY3J0LmxsYW1hLnBl
+L2xsYW1hcGVzdGFuZGFyZGNhLmNlcjAgBggrBgEFBQcwAYYUaHR0cDovL29jc3Au
+bGxhbWEucGUwHgYDVR0RBBcwFYETY29udGFjdG9AY29uZmx1eC5wZTBGBgNVHSAE
+PzA9MDsGDSsGAQQBg5d3AAEAAgEwKjAoBggrBgEFBQcCARYcaHR0cHM6Ly9sbGFt
+YS5wZS9yZXBvc2l0b3J5LzAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQw
+OgYDVR0fBDMwMTAvoC2gK4YpaHR0cDovL2NybC5sbGFtYS5wZS9sbGFtYXBlc3Rh
+bmRhcmRjYS5jcmwwHQYDVR0OBBYEFKxjj5DkRpNvm8z1XrgYMzxxpWtmMA4GA1Ud
+DwEB/wQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAQEAl92HCIhSAqpkYOL88Q4mIT3j
+Y2MPonfHylP8Z5Wm+RWBrS6oYDcQQ2vPv2pg7LsO7iCUnIm45hrd9MI7IQ0paXrY
+rvfv3ypUjad+TTR50WlToqyG3yalTG5v+ZUJ8HohVnipwnsTztl+XkAUfEO9xk8m
+bwNlvWffXzz5/RkEetXYRnxjHOYdLzGdofYWtfqm/UAy6irJaHyKlRBT7kT6Zrhx
+bbCjgdEKO0n+6HmubZGdTAhyhKY8kLzys8TuSt4vDFaDG3yxLhRzhuhwZ45kqq1H
+IcKzD4wJFOai9q1gbugL/W0V7ds2jdGy+q8BvKCHZ6XQVQyeGpXce2h+/yfXmA==</ds:X509Certificate>
+						</ds:X509Data>
+					</ds:KeyInfo>
+				</ds:Signature>
+			</ext:ExtensionContent>
+		</ext:UBLExtension>
+	</ext:UBLExtensions>
+	<cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+	<cbc:CustomizationID>2.0</cbc:CustomizationID>
+	<cbc:ID>B012-00000016</cbc:ID>
+	<cbc:IssueDate>2023-01-10</cbc:IssueDate>
+	<cbc:IssueTime>00:00:00</cbc:IssueTime>
+	<cbc:CreditNoteTypeCode listAgencyName="PE:SUNAT" listName="Tipo de Documento" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo01">07</cbc:CreditNoteTypeCode>
+	<cbc:Note languageLocaleID="1000">DOS MIL SETECIENTOS  Y 00/100 SOLES</cbc:Note>
+	<cbc:Note><![CDATA[VENDEDOR: Sally Palomares UchuyaVENDEDOR DEL CLIENTE: Sally Palomares Uchuya Telefono : +51 946 536 809 Movil : +51 946 536 809]]></cbc:Note>
+	<cbc:DocumentCurrencyCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 4217 Alpha" listName="Currency">PEN</cbc:DocumentCurrencyCode>
+	<cac:DiscrepancyResponse>
+		<cbc:ReferenceID>B012-00000444</cbc:ReferenceID>
+		<cbc:ResponseCode>06</cbc:ResponseCode>
+		<cbc:Description><![CDATA[None]]></cbc:Description>
+	</cac:DiscrepancyResponse>
+	<cac:BillingReference>
+		<cac:InvoiceDocumentReference>
+			<cbc:ID>B012-00000444</cbc:ID>
+			<cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+		</cac:InvoiceDocumentReference>
+	</cac:BillingReference>
+	<cac:Signature>
+		<cbc:ID>SB012-00000016</cbc:ID>
+		<cbc:Note/>
+		<cbc:ValidatorID>20068222</cbc:ValidatorID>
+		<cac:SignatoryParty>
+			<cac:PartyIdentification>
+				<cbc:ID>20518336607</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[O.M.L. IMPORT SOCIEDAD ANONIMA CERRADA]]></cbc:Name>
+			</cac:PartyName>
+			<cac:AgentParty>
+				<cac:PartyIdentification>
+					<cbc:ID>20518336607</cbc:ID>
+				</cac:PartyIdentification>
+				<cac:PartyName>
+					<cbc:Name><![CDATA[O.M.L. IMPORT SOCIEDAD ANONIMA CERRADA]]></cbc:Name>
+				</cac:PartyName>
+				<cac:PartyLegalEntity>
+					<cbc:RegistrationName><![CDATA[O.M.L. IMPORT SOCIEDAD ANONIMA CERRADA]]></cbc:RegistrationName>
+				</cac:PartyLegalEntity>
+			</cac:AgentParty>
+		</cac:SignatoryParty>
+		<cac:DigitalSignatureAttachment>
+			<cac:ExternalReference>
+				<cbc:URI>#SignatureSP</cbc:URI>
+			</cac:ExternalReference>
+		</cac:DigitalSignatureAttachment>
+	</cac:Signature>
+	<cac:AccountingSupplierParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeAgencyName="PE:SUNAT" schemeID="6" schemeName="Documento de Identidad" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">20518336607</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyName>
+				<cbc:Name><![CDATA[O.M.L. IMPORT SOCIEDAD ANONIMA CERRADA]]></cbc:Name>
+			</cac:PartyName>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[O.M.L. IMPORT SOCIEDAD ANONIMA CERRADA]]></cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+					<cac:AddressLine>
+						<cbc:Line>AV. ZARAGOZA LT. 05 MZ. O4 URB. PUERTA DE PRO</cbc:Line>
+					</cac:AddressLine>
+					<cac:Country>
+						<cbc:IdentificationCode listAgencyName="United Nations Economic Commission for Europe" listID="ISO 3166-1" listName="Country">PE</cbc:IdentificationCode>
+					</cac:Country>
+					</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="1" schemeName="Documento de Identidad" schemeAgencyName="PE:SUNAT" schemeURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo06">72638338</cbc:ID>
+			</cac:PartyIdentification>
+			<cac:PartyLegalEntity>
+				<cbc:RegistrationName><![CDATA[LESCANO MENGOLE DIANA CAROLINA]]></cbc:RegistrationName>
+				<cac:RegistrationAddress>
+					<cac:AddressLine>
+						<cbc:Line><![CDATA[CHACLACAYO-CHACLACAYO-LIMA-LIMA Lima - LIMA - CHACLACAYO , Peru]]></cbc:Line>
+					</cac:AddressLine>
+				</cac:RegistrationAddress>
+			</cac:PartyLegalEntity>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:TaxTotal>
+		<cbc:TaxAmount currencyID="PEN">411.86</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxableAmount currencyID="PEN">2288.14</cbc:TaxableAmount>
+			<cbc:TaxAmount currencyID="PEN">411.86</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="PE:SUNAT">S</cbc:ID>
+				<cac:TaxScheme>
+					<cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">1000</cbc:ID>
+					<cbc:Name>IGV</cbc:Name>
+					<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+				</cac:TaxScheme>
+			</cac:TaxCategory>
+		</cac:TaxSubtotal>
+		</cac:TaxTotal>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount currencyID="PEN">2288.14</cbc:LineExtensionAmount>
+		<cbc:TaxInclusiveAmount currencyID="PEN">2700.00</cbc:TaxInclusiveAmount>
+		<cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
+		<cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>
+		<cbc:PayableAmount currencyID="PEN">2700.00</cbc:PayableAmount>
+	</cac:LegalMonetaryTotal>
+	<cac:CreditNoteLine>
+		<cbc:ID>1</cbc:ID>
+		<cbc:CreditedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.0000000000</cbc:CreditedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">847.46</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">1000.0000000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+			</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">152.54</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">847.46</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">152.54</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID schemeID="UN/ECE 5153" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+			</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[Gutta Percha Obturation System Fi-P. Woodpecker.  R.S.: DB6759E  Series:FP2281721L  Cant: 1.0]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>WFIP</cbc:ID>
+			</cac:SellersItemIdentification>
+			</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">847.4600000000</cbc:PriceAmount>
+		</cac:Price>
+		</cac:CreditNoteLine>
+	<cac:CreditNoteLine>
+		<cbc:ID>2</cbc:ID>
+		<cbc:CreditedQuantity unitCode="NIU" unitCodeListID="UN/ECE rec 20" unitCodeListAgencyName="United Nations Economic Commission for Europe">1.0000000000</cbc:CreditedQuantity>
+		<cbc:LineExtensionAmount currencyID="PEN">1440.68</cbc:LineExtensionAmount>
+		<cac:PricingReference>
+			<cac:AlternativeConditionPrice>
+				<cbc:PriceAmount currencyID="PEN">1700.0000000000</cbc:PriceAmount>
+				<cbc:PriceTypeCode listName="Tipo de Precio" listAgencyName="PE:SUNAT" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo16">01</cbc:PriceTypeCode>
+			</cac:AlternativeConditionPrice>
+			</cac:PricingReference>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="PEN">259.32</cbc:TaxAmount>
+			<cac:TaxSubtotal>
+				<cbc:TaxableAmount currencyID="PEN">1440.68</cbc:TaxableAmount>
+				<cbc:TaxAmount currencyID="PEN">259.32</cbc:TaxAmount>
+				<cac:TaxCategory>
+					<cbc:ID schemeID="UN/ECE 5305" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">S</cbc:ID>
+					<cbc:Percent>18.00</cbc:Percent>
+					<cbc:TaxExemptionReasonCode listAgencyName="PE:SUNAT" listName="Afectacion del IGV" listURI="urn:pe:gob:sunat:cpe:see:gem:catalogos:catalogo07">10</cbc:TaxExemptionReasonCode>
+					<cac:TaxScheme>
+						<cbc:ID schemeID="UN/ECE 5153" schemeName="Codigo de tributos" schemeAgencyName="PE:SUNAT">1000</cbc:ID>
+						<cbc:Name>IGV</cbc:Name>
+						<cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+					</cac:TaxScheme>
+				</cac:TaxCategory>
+			</cac:TaxSubtotal>
+			</cac:TaxTotal>
+		<cac:Item>
+			<cbc:Description><![CDATA[Gutta Percha Obturation System Fi-G. Woodpecker.  R.S.: DB6759E  Series:FG2281056L  Cant: 1.0]]></cbc:Description>
+			<cac:SellersItemIdentification>
+				<cbc:ID>WFIG</cbc:ID>
+			</cac:SellersItemIdentification>
+			</cac:Item>
+		<cac:Price>
+			<cbc:PriceAmount currencyID="PEN">1440.6800000000</cbc:PriceAmount>
+		</cac:Price>
+		</cac:CreditNoteLine>
+	</CreditNote>
